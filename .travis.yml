@@ -11,3 +11,5 @@ branches:
 
 before_script:
   - pip install sphinx
+
+script: make test
