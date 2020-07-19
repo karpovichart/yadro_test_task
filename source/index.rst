@@ -5,10 +5,16 @@
 
 CV Karpovich Artem
 =================================
+24 years
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+Phone +79219892115
+
+Email karpovichart@gmail.com
+
+.. contents:: Table of contents
+   :depth: 2
+
+
 Work
 =================================
 
@@ -42,11 +48,24 @@ Education
     |         | Faculty of Secure Information Technologies |          |
     +---------+--------------------------------------------+----------+
 
-Skills
+Hard Skills
 =================================
 
+* Java
+* Python
+* PHP
+* Computer networks
+* Linux
+* Jenkins
+* Git
+* Terraform
+* Ansible
+* AWS
+* Docker
 
+Soft Skills
+=================================
 
-
-
-
+* Communication
+* Teamwork skills
+* Responsibility
