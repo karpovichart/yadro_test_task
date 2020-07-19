@@ -19,10 +19,10 @@ script:
   - pwd
 deploy:
   provider: pages
-  repo: karpovichart/karpovichart.github.io
+  repo: karpovichart/karpovichart.github.io:master
   skip_cleanup: true
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
-    branch: test
+    branch: master
   local_dir: html
