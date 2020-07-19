@@ -13,5 +13,5 @@ before_script:
   - pip install sphinx
 
 script:
-  - pwd
-#  - sphinx-build -b html source/index.rst index.html
+  - cd source
+  - sphinx-build -b html index.rst index.html
