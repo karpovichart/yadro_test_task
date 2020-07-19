@@ -14,7 +14,7 @@ before_script:
 
 script:
 #  - cd source
-  - sphinx-build -b html source ./html
+  - sphinx-build -b html source html
   - ls
   - pwd
   -
@@ -26,4 +26,4 @@ deploy:
   keep_history: true
   on:
     branch: master
-  file: ./html
+  local_dir: html
