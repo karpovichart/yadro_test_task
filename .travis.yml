@@ -15,3 +15,5 @@ before_script:
 script:
 #  - cd source
   - sphinx-build -b html source ./
+  - ls
+  - pwd
