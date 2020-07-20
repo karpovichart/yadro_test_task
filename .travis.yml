@@ -13,15 +13,16 @@ before_script:
   - pip install sphinx
 
 script:
-  - sphinx-build -b singlehtml source ./
+  - sphinx-build -b singlehtml source html
+  - touch html/.nojekyll
   - ls source
-#deploy:
-#  provider: pages
-#  repo: karpovichart/karpovichart.github.io
-#  skip_cleanup: true
-#  github_token: $GITHUB_TOKEN
-#  keep_history: true
-#  local_dir: html/
-#  target_branch: master
-#  on:
-#    branch: master
+deploy:
+  provider: pages
+  repo: karpovichart/karpovichart.github.io
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  local_dir: html/
+  target_branch: master
+  on:
+    branch: master
