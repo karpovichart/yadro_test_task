@@ -13,7 +13,7 @@ before_script:
   - pip install sphinx
 
 script:
-  - sphinx-build -b html source ./
+  - sphinx-build -b singlehtml source ./
   - ls source
 #deploy:
 #  provider: pages
